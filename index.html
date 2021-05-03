@@ -11,20 +11,26 @@
 
 <body>
     <div class="principal">
-        <nav class="navbar navbar-expand-lg navbar-.bg-dark.bg-gradient bg-.bg-dark.bg-gradient">
+        <nav id="logo" class="navbar navbar-expand-lg navbar-.bg-dark.bg-gradient bg-.bg-dark.bg-gradient">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="./checklist_106575.svg">
                 </a>
                 <div class="wrap">
                     <form class="formulario" action="">
-                        <input type="text" id="tareaInput" placeholder="Agrega tu tarea">
-                        <input type="button" class="boton" id="btn-agregar" value="Agregar Tarea">
-                        <input type="date" placeholder="titulo de la tarea" id="fecha">
+                        <div class="row g-3">
+                            <div class="col-sm-7">
+                                <input type="text" id="tareaInput" placeholder="Agrega tu tarea">
+                                <input type="button" class="boton" id="btn-agregar" value="Agregar Tarea">
+                            </div>
+                        </div>
+
+
                         <select id="prioridad">
                             <option value="" selected>Selecciona una prioridad</option>
                             <option value="urgente">Urgente</option>
-                            <option value="rutinaria">Rutinaria</option>
+                            <option value="mensual">Mensual</option>
+                            <option value="diaria">Diaria</option>
                         </select>
                     </form>
                 </div>
