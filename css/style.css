@@ -1,0 +1,79 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #c6c6c6;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 16px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.wrap {
+	margin: auto;
+	max-width: 800px;
+	width: 100%;
+}
+
+.principal {
+	background: #5333ed;
+	border-top: 20px solid #2CD4D9;
+	color: #fff;
+	padding: 50px 0;
+	width: 100%;
+}
+
+.principal .formulario {
+	color: #212121;
+	text-align: center;
+}
+
+.principal .formulario input[type=text] {
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 100%;
+}
+
+.principal .formulario input[type=text].error {
+	border: 5px solid #D32F2F;
+	color: red;
+}
+
+.principal .formulario .boton {
+	background: none;
+	border: 1px solid #2cd4d9;
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+	padding: 15px;
+}
+
+.principal .formulario .boton:hover {
+	border: 1px solid #fff;
+}
+
+/* -  Lista de Tareas - */
+.tareas .lista {
+	list-style: none;
+}
+
+.tareas .lista li {
+	border-bottom: 1px solid #B6B6B6;
+}
+
+.tareas .lista li a {
+	color: #212121;
+	display: block;
+	padding: 20px 0;
+	text-decoration: none;
+}
+
+.tareas .lista li a:hover {
+	text-decoration: line-through;
+}
